@@ -1,0 +1,59 @@
+---
+title: "Developing Data Products Course Project"
+author: "Raul Rodrigo Olivarez Jr"
+date: "2023-08-10"
+output: slidy_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Introduction 
+
+This presentation is the final project for the Developing Data Products in Couersera.
+
+The Shiny application can be viewed here
+https://joupva-raul0rodrigo-olivarez.shinyapps.io/DevelopingDataProductsCourseProject/
+
+The Shiny app source coide is available at
+https://github.com/rrcolivarez/DevelopingDataProductsCourseProject
+
+## Overview
+
+- The application depicts the mtcars dataset in R. 
+- It consists of two files: server.R and ui.R
+- The goal of the application is to visualize how MPG (miles per gallon) varies with other variables in the dataset.
+- The user can choose what predictor variable and visualize how it affects MPG.
+- The app display the summary statistics for each predictor variable correlating with MPG.
+
+## Data Dictionary
+
+1. mpg: Miles per gallon (fuel efficiency measurement)
+2. cyl: Number of cylinders in the engine
+3. disp: Displacement (cubic inches)
+4. hp: Gross horsepower
+5. drat: Rear axle ratio
+6. wt: Weight (1000 lbs)
+7. qsec: 1/4 mile time (seconds)
+8. vs: V/S (V-shaped or straight engine, 0 = V-shaped, 1 = straight)
+9. am: Transmission (0 = automatic, 1 = manual)
+10. gear: Number of forward gears
+11. carb: Number of carburetors
+
+## Interpretation
+
+The scatterplot in the Shiny app displays the relationship between the selected variable (e.g., cyl, disp, hp, etc.) and the miles per gallon (mpg) of various car models. Each point on the scatterplot represents a different car model. The x-axis represents the chosen variable, and the y-axis represents miles per gallon (mpg). 
+
+These summary statistics provide insights into the distribution and central tendency of each variable. They help you understand the range of values, the spread of data, and whether the data is skewed or evenly distributed.
+
+By selecting different variables from the dropdown menu in the app, you can explore how each variable relates to miles per gallon (mpg). The scatterplot and summary statistics together can assist in identifying potential correlations and trends between different attributes of car models and their fuel efficiency.
+
+
+## Try the App Now
+
+The Shiny application is available at: https://www.shinyapps.io/
+
+Visualize my application here: https://joupva-raul0rodrigo-olivarez.shinyapps.io/DevelopingDataProductsCourseProject/
+
+Get the app source code at: https://github.com/rrcolivarez/DevelopingDataProductsCourseProject
